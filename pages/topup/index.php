@@ -1,0 +1,25 @@
+<div class="container mt-3 text-center">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card card-body" style="border-radius: 15px;">
+                        <div id="return"></div>
+                        <h3 class="text-center">เติมเงิน</h3>
+                            <hr class="bg-light">
+                            <div class="text-left mt-1">
+                                <font color="lime"><i class="fas fa-chevron-circle-right"></i></font> กรอกลิ้งซองอั่งเปา
+                            </div>
+                            <div class="input-group">
+                                <input class="form-control" id="link_topup" placeholder="https://gift.truemoney.com/campaign/?v=......">
+                            </div>
+                            <br>
+                            <button type="button" class="btn btn-success w-100" id="submit_topup">เติมเงิน</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../assets/js/topup.js"></script>
